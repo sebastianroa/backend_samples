@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Control Panel</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<link rel="stylesheet" href="../../css/form.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div class="nav" style="border-bottom: 3px solid black; height: 80px">
+      
+          <ul  class="pull-left ulWidth">
+              <div class="thumbnail">
+		      <a href="index.html/../../.." style="margin: 0; padding: 0"><img src="../../img/smallmemo.jpg" style="max-height: 50%; max-width:100%"></a>
+	      </div>
+          </ul>
+
+
+        <ul class="pull-right">
+          <li><a href="#">About</a></li>
+	  <li><a href="#">FAQ</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      
+    </div>
+    <div class ="section" style="height: 1000px; background-color: #F8F8F8">
+	    <div class="container">
+	    	<div class="row">
+			<!--CONTROL PANEL-->
+			<div class="col-md-8 shadow" style="border: 2px solid Gainsboro; background-color: white">
+			<h2>Your Control Panel</h2>
+				<p>Select from List of Options</p>
+					<script>
+						function createPersonal() {
+							$('.col-md-8').fadeOut('slow', function(){
+    									// What content do you want to appear here$('.col-md-8').load('personalAlerts1.html', function(){
+        									$('.col-md-8').fadeIn('slow');
+    									});
+									});
+						}
+						
+						function academicLoad() {
+						$('.col-md-8').fadeOut('slow', function(){
+    									$('.col-md-8').load('crAlerts.html', function(){
+        									$('.col-md-8').fadeIn('slow');
+    									});
+									});
+						}
+						function editDeleteAlerts() {
+						$('.col-md-8').fadeOut('slow', function(){
+    									$('.col-md-8').load('editDelete.html', function(){
+        									$('.col-md-8').fadeIn('slow');
+    									});
+									});
+						}
+
+					</script> 
+			</div>
+			<div class="col-md-4 shadow" style="border: 2px solid Gainsboro; background-color: white">
+				<h3>Options</h3>
+				<button onclick="academicLoad()"><p>Create/ Receive <i>Academic</i> Alerts</p></button>
+				<!--<button onclick="createPersonal()"><p>Create <i>Personal</i> Alerts</p></button>
+				<button><p>Show Upcoming Alerts</p></button>
+				<button><p>Send teacher anonymous note</p></button>
+				-->
+				<button onclick="editDeleteAlerts()"><p>Edit/Delete Alerts</p></button>
+			</div>
+		</div>
+	    </div>
+    </div>
+<div class = "section" style="background-color:#384047">
+        <div class="container">
+            <div class ="row">
+                <p style ="text-align: center; color: white">&copy;2015 Memo</p>
+		<div class="col-md-6">
+			<div class="thumbnail" style="background-color: #384047; border: #384047">
+				<a href="#">
+				<img src="../../img/twitter-wrap.png">
+				</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="thumbnail" style="background-color: #384047; border: #384047">
+				<a href="#">
+				<img src="../../img/facebook-wrap.png">
+				</a>
+			</div>
+		</div>
+            </div>
+        </div>
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,82 @@
+/*=======================================
+			Media Queries
+=======================================*/
+a {
+	text-decoration: none;
+}
+
+
+button {
+	display: block;
+	margin: 2%;
+	border: 1px solid #3f8abf;
+	border-radius: 5%;
+	background-color: #3f8abf;
+	color: white;
+}
+
+* {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	
+}
+
+p {
+	font-weight: 400;
+	
+}
+
+.primary-content {
+	border-right: 3px solid black;
+	background-color: gainsboro;
+	padding: 2.5%;
+}
+
+.inside-primary-content {
+	background-color: white;
+	padding: 2.5%;
+	border: 1px white solid;
+	border-radius: 2.5%;
+}
+
+.secondary-content {
+	background-color: gainsboro;
+}
+
+.inside-secondary-content {
+	background-color: white;
+	padding: 2.5%;
+	border: 1px white solid;
+	border-radius: 2.5%;
+}
+
+.main-logo a{
+	color: #5fdf80;
+	background-color: #384047;
+
+}
+
+h1 {
+	font-weight: 200;
+}
+
+.main-header { 
+	height: 60px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 5px 3px -4px black; /*0 6 4 -4*/
+  -moz-box-shadow: 0 5px 3px -4px black;
+  box-shadow: 0 5px 3px -4px black;
+}
+
+/*=======================================
+			Media Queries
+=======================================*/
+@media (max-width: 769px) /*Shrink the Alert Warrior header in */ {
+    	h1 {
+        	font-size:  1.1em; 
+    }
+
+
+

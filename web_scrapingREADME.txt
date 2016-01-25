@@ -1,0 +1,2 @@
+Need to find contact information on the web for contractors?
+I have saved some variables that search for a specific area code (Mississippi exactly) from the BING search engine and retrieves the number of times it catches that area code. Feel free to modify it for your suiting. 

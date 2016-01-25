@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Control Panel</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<link rel="stylesheet" href="../../css/form.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div class="nav" style="border-bottom: 3px solid black; height: 80px">
+      
+          <ul  class="pull-left ulWidth">
+              <div class="thumbnail">
+		      <a href="index.html/../../.." style="margin: 0; padding: 0"><img src="../../img/smallmemo.jpg" style="max-height: 50%; max-width:100%"></a>
+	      </div>
+          </ul>
+        <ul class="pull-right">
+          <li><a href="#">About</a></li>
+	  <li><a href="#">FAQ</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+    </div>
+    <div class="section" style="background-color: #F8F8F8">
+	    <div class="container">
+	    	<div class="row">
+			<div class="col-md-8 shadow" style="border: 2px solid Gainsboro; background-color: white">
+				<h2>Edit Alerts</h2>
+				<div id="answer" style="padding: 5px"></div>
+			</div>
+			<div class="col-md-4 shadow" style="border: 2px solid Gainsboro; background-color: white">
+				<div style= "background-color: white" class="shadow">
+					<h3>Input both/ or phone number and email address</h3>
+					<label>
+						Phone Number
+					</label>
+						<input type= "text" id="phone_number">
+					<p style="text-align: center; margin: 1%">and / or</p>
+					<label>
+						Email
+					</label>
+						<input type ="text" id="email">			
+					<button onclick="checkClass()">Enter and Show Classes</button>
+				</div>
+			</div>
+		</div>
+	    </div>
+    </div>
+<div class = "section" style="background-color:#384047">
+        <div class="container">
+            <div class ="row">
+                <p style ="text-align: center; color: white">&copy;2015 Memo</p>
+		<div class="col-md-6">
+			<div class="thumbnail" style="background-color: #384047; border: #384047">
+				<a href="#">
+				<img src="../../img/twitter-wrap.png">
+				</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="thumbnail" style="background-color: #384047; border: #384047">
+				<a href="#">
+				<img src="../../img/facebook-wrap.png">
+				</a>
+			</div>
+		</div>
+            </div>
+        </div>
+</div>
+		<script src="../../js/editAlerts/editAlerts01.js"></script>
+	</body>
+	</html>

@@ -1,0 +1,1 @@
+In the past two months, I have transfered my paradigm from a procedural manner to OO. As I come up with tools that I have created and fixed all the bugs, I'll start uploading all my classes for all my buds to use.
